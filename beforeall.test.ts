@@ -4,6 +4,7 @@ import { beforeAll, expect, test } from "vitest"
 let beforeAllRan = false
 
 beforeAll(async () => {
+  beforeAllRan = true
   await setTimeout(100)
 })
 
